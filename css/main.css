@@ -1,0 +1,861 @@
+/* Typography styles */
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-BoldItalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold_italic';
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-ExtraBoldItalic-webfont.svg#open_sansextrabold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+				font-family: 'helveticaneueltstd-th';
+				src: url('helveticaneueltstd-th.eot');
+				src: url('helveticaneueltstd-th.eot?#iefix') format('embedded-opentype'),
+						 url('helveticaneueltstd-th.woff') format('woff'),
+						 url('helveticaneueltstd-th.ttf') format('truetype'),
+						 url('helveticaneueltstd-th.svg#gothici') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f8f8f8;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 100;
+	background-image: url(../images/banner_bg.jpg);
+	height: auto;
+	overflow: hidden;
+}
+
+   header hgroup {
+	   background: rgba(0,0,0,.5);
+	   height: auto;
+	   overflow: hidden;
+   }
+   
+   .top_wrap {
+	   margin: 0 auto;
+	   padding: 0;
+	   width: 85%;   
+   }   
+   
+   .search {
+	   margin: 10px auto 0 auto;
+	   padding: 4px;
+	   width: 85%;	
+   }
+   
+   .search input {
+	   border: 1px solid #ccc;
+	   outline: none;	
+	   padding: 10px;
+	   text-align: center;
+	   border-radius: 3px;
+	   box-shadow: inset 1px 1px 6px rgba(177, 177, 177, 0.3);
+	   width: 100%;
+	   font-family: 'open_sanslight';
+	   font-weight: normal;
+	   font-size: .9em;
+   }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	color: #480148;
+}
+
+h2 {
+	color: #a02952;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before, .cf:after {
+	content:"";
+	display:table;
+}
+
+.cf:after {
+	clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+	zoom:1;
+}
+
+/* .banner_video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+	background-image: url(../images/banner_bg.jpg);
+} 
+
+   .banner_video h2 {
+	   margin: 5% 0 0 0;
+   }
+   
+   .banner_video a {
+	   font-weight: normal;
+	   font-size: 1em;
+	   color: #fff;
+	   border-bottom: 1px solid #fff;
+   } */
+
+.top_wrap h1 {
+	display: inline;
+	width: 20%;
+	float: left;
+	margin: 15px 0 20px 0;
+	font-family: 'open_sansregular';
+	font-weight: normal;
+}
+
+   .top_wrap h1 a {
+	  color: #8ac594; 
+   }
+
+.top_wrap nav{
+	display: inline;
+	float: left;
+	width: 30%;
+}
+
+ul.top_menu {
+	margin: 10px 0 0 8%;
+	padding: 0;
+	display: block;
+}
+
+   ul.top_menu li {
+	   margin: 18px 0;
+	   padding: 0 6% 0 0;
+	   float: left;
+	   display: inline;
+	   font-size: 1.3em;
+   }
+   
+      ul.top_menu li a {
+	      color: #fff;
+	      font-family: 'open_sanslight';
+	      font-weight: normal;
+	      font-size: .85em;
+	      letter-spacing: 0.03em;
+      }
+      
+      ul.top_menu li a:hover {
+	   color: #9f2951;
+      }
+
+ul.log_ins {
+	margin: 30px 0 0 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+	float: right;
+}
+
+   ul.log_ins li {
+	   margin: 18px 0;
+	   padding: 0 8% 0 0;
+	   display: inline;
+   }
+   
+   ul.log_ins li:last-child {
+	   margin: 0;
+	   padding: 0;
+   }
+   
+   ul.log_ins li a {
+	   color: #fff;
+	   font-family: 'open_sanslight';
+	   font-weight: normal;
+	   font-size: 1em;
+	   letter-spacing: 0.03em;
+   }
+   
+   ul.log_ins li a:hover {
+	   color: #9f2951;
+   }
+
+.weekly_favs {
+	margin: 20px auto;
+	width: 85%;
+}
+
+.weekly_favs a {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 0 0;
+	width: 31%;
+	font-family: 'open_sansitalic';
+	font-weight: normal;
+	font-size: 1em;
+}
+
+a.center_clip {
+	margin: 0 3.5%;
+}
+
+.weekly_favs a h1 {
+	color: #fff;
+	text-align: center;
+	font-family: 'open_sansitalic';
+	font-weight: normal;
+	font-size: 2em;
+}
+
+.weekly_favs a p {
+	color: #fff;
+	text-align: left;
+	font-family: 'open_sanslight';
+	font-weight: normal;
+	font-size: 1em;
+	letter-spacing: 0.03em;
+}
+
+
+.clip_week {
+	background: url(../images/clip.png) 0 0 no-repeat;
+	float: left;
+	width: 100%;
+	height: 183px;
+	margin: 0;
+	padding: 0 5% 0 0;
+}
+
+.video_container {
+	margin: 0 auto 30px auto;
+	padding: 0;
+	width: 85%;
+	clear: both;
+}
+
+   .video_container h2, .music_container h2, .ringtones_container h2, .wallpapers_container h2 , .games_container h2 {
+	   font-family: 'open_sansregular';
+	   font-weight: normal;
+	   font-size: 1.5em;
+   }
+   
+   .video_container article h3, .music_container article h3, .ringtones_container article h3, .wallpapers_container article h3, .games_container article h3 {
+	   font-family: 'open_sansbold';
+	   font-weight: normal;
+	   font-size: 1.1em;
+   }
+   
+   .video_container article div.details, .music_container article div.details, .ringtones_container article div.details, .wallpapers_container article div.details, .games_container article div.details {
+	   font-family: 'open_sansregular';
+	   font-weight: normal;
+	   font-size: .94em;
+   }
+
+   .video_container article {
+	   display: block;
+	   width: 33%;
+	   float: left;
+   }
+   
+   article.downloads_wrap {
+	  width: 93%;
+	  display: block; 
+	  margin: 25px 0 0 0;
+   }
+   
+   article.downloads_wrap div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   a.more {
+	   margin: 0;
+	   padding: 0;
+	   float: right;
+	   clear: both;
+	   font-family: 'open_sansbold';
+	   font-weight: normal;
+	   color: #480148;
+	   border-bottom: 1px solid;
+   }
+   
+   
+   .video_container article div.details {
+	   margin: 0;
+	   padding: 0;
+	   width: 60%;
+   }
+   
+   .video_container article div.details a {
+	   color: #fff;
+	   background: #8f9b21;
+	   border: none;
+	   border-radius: 3px;
+	   display: block;
+	   width: 44%;
+	   text-align: center;
+	   margin: 8px 0 0 0;
+	   padding: 4px;
+	   box-shadow: 1px 1px 1px rgba(0,0,0,.5); 
+   }
+   
+.music_container {
+	margin: 0 auto 30px auto;
+	padding: 0;
+	width: 85%;
+	clear: both;
+}
+
+   .music_container article {
+	   display: block;
+	   width: 33%;
+	   float: left;
+   }
+   
+   .music_container article.downloads_wrap {
+	  width: 93%;
+	  display: block; 
+	  margin: 25px 0 0 0;
+   }
+   
+   .music_container article.downloads_wrap div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   .music_container article div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   .music_container article div.details {
+	   margin: 0;
+	   padding: 0;
+	   width: 60%;
+   }
+   
+   .music_container article div.details a {
+	   color: #fff;
+	   background: #8f9b21;
+	   border: none;
+	   border-radius: 3px;
+	   display: block;
+	   width: 44%;
+	   text-align: center;
+	   margin: 8px 0 0 0;
+	   padding: 4px;
+	   box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+   }
+   
+.ringtones_container {
+	margin: 0 auto 30px auto;
+	padding: 0;
+	width: 85%;
+	clear: both;
+}
+
+   .ringtones_container article {
+	   display: block;
+	   width: 33%;
+	   float: left;
+   } 
+   
+   .ringtones_container article.downloads_wrap {
+	  width: 93%;
+	  display: block; 
+	  margin: 25px 0 0 0;
+   }
+   
+   .ringtones_container article.downloads_wrap div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   } 
+   
+   .ringtones_container article div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   .ringtones_container article div.details {
+	   margin: 0;
+	   padding: 0;
+	   width: 60%;
+   } 
+   
+   .ringtones_container article div.details a {
+	   color: #fff;
+	   background: #8f9b21;
+	   border: none;
+	   border-radius: 3px;
+	   display: block;
+	   width: 44%;
+	   text-align: center;
+	   margin: 8px 0 0 0;
+	   padding: 4px;
+	   box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+   }   
+
+.wallpapers_container {
+	margin: 0 auto 30px auto;
+	padding: 0;
+	width: 85%;
+	clear: both;
+}
+
+   .wallpapers_container article {
+	   display: block;
+	   width: 33%;
+	   float: left;
+   } 
+   
+   .wallpapers_container article.downloads_wrap {
+	  width: 93%;
+	  display: block; 
+	  margin: 25px 0 0 0;
+   }
+   
+   .wallpapers_container article.downloads_wrap div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   .wallpapers_container article div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   .wallpapers_container article div.details {
+	   margin: 0;
+	   padding: 0;
+	   width: 60%;
+   }
+   
+   .wallpapers_container article div.details a {
+	   color: #fff;
+	   background: #8f9b21;
+	   border: none;
+	   border-radius: 3px;
+	   display: block;
+	   width: 44%;
+	   text-align: center;
+	   margin: 8px 0 0 0;
+	   padding: 4px;
+	   box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+   }
+
+.games_container {
+	margin: 0 auto 50px auto;
+	padding: 0;
+	width: 85%;
+	clear: both;
+}
+
+   .games_container article {
+	   display: block;
+	   width: 33%;
+	   float: left;
+   } 
+   
+   .games_container article.downloads_wrap {
+	  width: 93%;
+	  display: block; 
+	  margin: 25px 0 0 0;
+   }
+   
+   .games_container article.downloads_wrap div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   .games_container article div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+   
+   .games_container article div.details {
+	   margin: 0;
+	   padding: 0;
+	   width: 60%;
+   }
+   
+   .games_container article div.details a {
+	   color: #fff;
+	   background: #8f9b21;
+	   border: none;
+	   border-radius: 3px;
+	   display: block;
+	   width: 44%;
+	   text-align: center;
+	   margin: 8px 0 0 0;
+	   padding: 4px;
+	   box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+   }
+   
+/* Downloads styles */
+.content {
+	margin: 0 auto;
+	width: 85%;
+	overflow: hidden;
+	height: auto;
+}
+
+aside {
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	float: left;
+	clear: both;
+}  
+
+ul.side_menu {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	width: 72%;
+} 
+
+ul.side_menu li {
+	margin: 0;
+	padding: 4px 0 10px 0;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	text-align: right;
+}
+
+ul.side_menu li a {
+	font-family: 'open_sansregular';
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #9f2951;
+	text-align: right;
+}
+
+ul.side_menu li a.active {
+	color: #909c22;
+}
+
+.main_content {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 80%;
+}
+
+
+article.downloads_music {
+	  width: 33%;
+	  display: block; 
+	  margin: 25px 0 0 0;
+	  float: left;
+   }
+   
+   article.downloads_music div {
+	   float: left;
+	   width: 35%;
+	   display: block;
+   }
+
+.music_details {
+	   margin: 0;
+	   padding: 0;
+	   width: 60%;
+	   font-family: 'open_sansregular';
+	   font-weight: normal;
+	   font-size: .94em;
+   }
+
+.music_details a {
+	   color: #fff;
+	   background: #8f9b21;
+	   border: none;
+	   border-radius: 3px;
+	   display: block;
+	   width: 86%;
+	   text-align: center;
+	   margin: 8px 0 0 0;
+	   padding: 4px;
+	   box-shadow: 1px 1px 1px rgba(0,0,0,.5); 
+   }
+   
+ul.pager {
+	margin: 30px 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	width: 15%;
+} 
+
+   ul.pager li {
+	   margin: 0;
+	   padding: 0 0 0 10%;
+	   display: inline;
+	   
+   }
+   
+   ul.pager li:first-child {
+	   margin: 0;
+	   padding: 0;
+	   border-bottom: 1px solid #8f9b21;
+   }
+   
+   ul.pager li:first-child a {
+	   color: #8f9b21;
+   }
+   
+   ul.pager li a {
+       font-family: 'open_sansbold';
+	   font-weight: normal;
+	   font-size: 1.3em;
+	   color: #480148;
+	   padding: 0 0 0 0;
+   } 
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+/* Footer styles */
+footer {
+	background: #2b052b;
+	height: 100px;
+} 
+   
+   footer p {
+	   color: #fff;
+	   display: block;
+	   width: 30%;
+	   float: left;
+	   font-family: 'open_sanslight';
+	   font-weight: normal;
+	   font-size: .94em;
+	   margin: 20px 0 0 0;
+   } 
+   
+.footer {
+	margin: 0 auto;
+	width: 85%;
+} 
+
+nav ul.footer_menu {
+	margin: 20px 0 0 0;
+	padding: 0;
+	display: inline;
+	float: right;
+	width: auto;
+	overflow: hidden;
+}
+
+   nav ul.footer_menu li {
+	   margin: 0;
+	   padding: 0 4% 0 0;
+	   display: inline;
+	   border-right: 1px solid #fff;
+   }
+   
+   nav ul.footer_menu li:last-child {
+	   border-right: none;
+	   margin: 0;
+	   padding: 0;
+   }
+   
+   nav ul.footer_menu li a {
+	   font-family: 'open_sanslight';
+	   font-weight: normal;
+	   font-size: 1em;
+	   color: #fff;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
