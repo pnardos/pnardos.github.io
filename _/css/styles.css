@@ -1,0 +1,921 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+/* line 5, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Users/pirez/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, ../components/sass/_base.scss */
+body, html {
+  height: 100%; }
+
+/* line 5, ../components/sass/_base.scss */
+* {
+  box-sizing: border-box; }
+
+/* Optional min width */
+/* line 10, ../components/sass/_base.scss */
+html {
+  min-width: 20rem; }
+
+/* line 17, ../components/sass/_base.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #3d3d3d;
+  font-weight: 100; }
+
+/* line 26, ../components/sass/_base.scss */
+hgroup {
+  background: #ffffff;
+  position: relative;
+  z-index: 10000;
+  width: 100% !important;
+  margin: 0;
+  padding: 0 0 1rem 0;
+  left: 0px !important;
+  border-top: none;
+  border-bottom: 1px solid #f2f2f2; }
+
+/* line 40, ../components/sass/_base.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 45, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #f38630; }
+
+/* line 51, ../components/sass/_base.scss */
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: 2rem 0 1.5rem 0; }
+
+/* line 58, ../components/sass/_base.scss */
+h2 {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
+  color: #515151;
+  margin: 0 0 1rem 0; }
+
+/* line 67, ../components/sass/_base.scss */
+a {
+  text-decoration: none; }
+
+/* line 71, ../components/sass/_base.scss */
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #515151;
+  line-height: 175%;
+  letter-spacing: 0.02rem;
+  margin-bottom: 20px; }
+  /* line 79, ../components/sass/_base.scss */
+  p span {
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+    margin: 30px 0 0 0; }
+
+/* line 86, ../components/sass/_base.scss */
+.divider {
+  border-bottom: 1px solid #e6e6e6;
+  width: 20rem;
+  margin: 3rem auto 4rem auto; }
+
+/* line 92, ../components/sass/_base.scss */
+.hidden {
+  display: none !important; }
+
+/* line 96, ../components/sass/_base.scss */
+.menu {
+  width: 3em;
+  height: 3em;
+  position: relative;
+  cursor: pointer;
+  float: right;
+  z-index: 0;
+  margin: 0; }
+
+/* line 105, ../components/sass/_base.scss */
+.menu .bit-1::before {
+  content: '';
+  left: 0.5em;
+  top: 0.5em;
+  position: absolute;
+  width: 1em;
+  transform-origin: left bottom;
+  height: 0.3em;
+  background: #515151;
+  transition: transform 0.3s, top 0.3s; }
+
+/* line 116, ../components/sass/_base.scss */
+.menu .bit-1::after {
+  content: '';
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  width: 1em;
+  transform-origin: right bottom;
+  height: 0.3em;
+  background: #515151;
+  transition: transform 0.3s, top 0.3s; }
+
+/* line 127, ../components/sass/_base.scss */
+.menu .bit-2 {
+  position: absolute;
+  width: 2em;
+  top: 50%;
+  left: 50%;
+  height: 0.3em;
+  background: #515151;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s 0.3s, width 0.3s 0.6s; }
+
+/* line 137, ../components/sass/_base.scss */
+.menu .bit-3::before {
+  content: '';
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.5em;
+  width: 1em;
+  transform-origin: left top;
+  height: 0.3em;
+  background: #515151;
+  transition: transform 0.3s, bottom 0.3s; }
+
+/* line 148, ../components/sass/_base.scss */
+.menu .bit-3::after {
+  content: '';
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  width: 1em;
+  transform-origin: right top;
+  height: 0.3em;
+  background: #515151;
+  transition: transform 0.3s, bottom 0.3s; }
+
+/* line 159, ../components/sass/_base.scss */
+.menu.open .bit-1:before {
+  top: 0.4em;
+  width: 1.2em;
+  transform: rotate(45deg);
+  transform-origin: left bottom;
+  transition: transform 0.3s 0.3s, width 0.3s 0.3s, top 0.3s 0.3s; }
+
+/* line 166, ../components/sass/_base.scss */
+.menu.open .bit-1:after {
+  top: 0.4em;
+  width: 1.2em;
+  transform: rotate(-45deg);
+  transform-origin: right bottom;
+  transition: transform 0.3s 0.3s, width 0.3s 0.3s, top 0.3s 0.3s; }
+
+/* line 173, ../components/sass/_base.scss */
+.menu.open .bit-2 {
+  width: 0.3em;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: transform 0.3s 0.3s, width 0.3s; }
+
+/* line 178, ../components/sass/_base.scss */
+.menu.open .bit-3:before {
+  bottom: 0.4em;
+  width: 1.2em;
+  transform: rotate(-45deg);
+  transform-origin: left top;
+  transition: transform 0.3s 0.3s, width 0.3s 0.3s, bottom 0.3s 0.3s; }
+
+/* line 185, ../components/sass/_base.scss */
+.menu.open .bit-3:after {
+  bottom: 0.4em;
+  width: 1.2em;
+  transform: rotate(45deg);
+  transform-origin: right top;
+  transition: transform 0.3s 0.3s, width 0.3s 0.3s, bottom 0.3s 0.3s; }
+
+/* line 193, ../components/sass/_base.scss */
+ul.right-nav {
+  float: right;
+  width: 30%; }
+  /* line 197, ../components/sass/_base.scss */
+  ul.right-nav li {
+    display: inline-block;
+    width: 45%;
+    margin: 16px 0; }
+    /* line 202, ../components/sass/_base.scss */
+    ul.right-nav li a.signup, ul.right-nav li a.signin {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      -moz-background-clip: padding;
+      -o-background-clip: padding-box;
+      -webkit-background-clip: padding;
+      background-clip: padding-box;
+      background-color: #9acf3a;
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      color: #ffffff;
+      font-size: 1.2rem;
+      padding: 7% 10%;
+      margin: 1.5rem 0 0 0;
+      float: right;
+      width: 100%;
+      text-align: center;
+      border: 1px solid #9acf3a; }
+    /* line 217, ../components/sass/_base.scss */
+    ul.right-nav li a.signin {
+      background: transparent;
+      color: #9acf3a;
+      margin: 0 0.9rem 0 0; }
+
+/* line 227, ../components/sass/_base.scss */
+.wrap {
+  overflow: hidden;
+  *zoom: 1;
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 234, ../components/sass/_base.scss */
+.nav-wrap {
+  overflow: hidden;
+  *zoom: 1;
+  display: block; }
+
+/* line 240, ../components/sass/_base.scss */
+footer {
+  background: #0d3147;
+  height: 25rem;
+  padding: 2rem 0 0 0;
+  position: relative; }
+
+/* line 2, ../components/sass/_modules.scss */
+header {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0; }
+
+/* line 8, ../components/sass/_modules.scss */
+.logo {
+  display: inline-block;
+  float: left;
+  margin: 1.3rem 0 0 0; }
+
+/* line 15, ../components/sass/_modules.scss */
+.hero {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 18, ../components/sass/_modules.scss */
+  .hero .banner {
+    padding: 5% 0;
+    border-top: none;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #ffffff;
+    -moz-box-shadow: inset 0 -3px 3px rgba(214, 214, 214, 0.16);
+    -webkit-box-shadow: inset 0 -3px 3px rgba(214, 214, 214, 0.16);
+    box-shadow: inset 0 -3px 3px rgba(214, 214, 214, 0.16);
+    text-align: center; }
+    /* line 28, ../components/sass/_modules.scss */
+    .hero .banner h1 {
+      font-family: "Lato", sans-serif;
+      color: #f38630;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin: 0;
+      padding: 0; }
+    /* line 36, ../components/sass/_modules.scss */
+    .hero .banner h2 {
+      font-family: "Lato", sans-serif;
+      color: #f38630;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin: 0;
+      padding: 0; }
+    /* line 44, ../components/sass/_modules.scss */
+    .hero .banner .banner-signup {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      -moz-background-clip: padding;
+      -o-background-clip: padding-box;
+      -webkit-background-clip: padding;
+      background-clip: padding-box;
+      background-color: #9acf3a;
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      color: #ffffff;
+      font-size: 1.8rem;
+      padding: 1.2% 9%;
+      margin: 5% auto 0 auto;
+      display: inline-block; }
+
+/* line 61, ../components/sass/_modules.scss */
+.about-us, .why {
+  margin: 130px auto 5rem auto;
+  width: 60rem;
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 65, ../components/sass/_modules.scss */
+  .about-us .layout, .why .layout {
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 67, ../components/sass/_modules.scss */
+    .about-us .layout h1, .why .layout h1 {
+      margin: 8rem 0;
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 3.3rem;
+      width: 20%;
+      float: left; }
+    /* line 76, ../components/sass/_modules.scss */
+    .about-us .layout p, .why .layout p {
+      display: block;
+      float: right;
+      width: 58%; }
+
+/* line 84, ../components/sass/_modules.scss */
+.why {
+  margin-top: 0;
+  margin-bottom: 0; }
+  /* line 91, ../components/sass/_modules.scss */
+  .why .layout h1 {
+    margin: 0; }
+
+/* line 99, ../components/sass/_modules.scss */
+.features {
+  width: 60rem;
+  margin: 0 auto; }
+  /* line 103, ../components/sass/_modules.scss */
+  .features .layout .facebook-shop, .features .layout .pos, .features .layout .reports, .features .layout .tested, .features .layout .backend, .features .layout .free {
+    overflow: hidden;
+    *zoom: 1;
+    margin: 0 0 4rem 0; }
+    /* line 106, ../components/sass/_modules.scss */
+    .features .layout .facebook-shop article, .features .layout .pos article, .features .layout .reports article, .features .layout .tested article, .features .layout .backend article, .features .layout .free article {
+      float: left;
+      width: 48%; }
+    /* line 110, ../components/sass/_modules.scss */
+    .features .layout .facebook-shop img, .features .layout .pos img, .features .layout .reports img, .features .layout .tested img, .features .layout .backend img, .features .layout .free img {
+      float: right; }
+    /* line 113, ../components/sass/_modules.scss */
+    .features .layout .facebook-shop p, .features .layout .pos p, .features .layout .reports p, .features .layout .tested p, .features .layout .backend p, .features .layout .free p {
+      width: 25rem;
+      display: block;
+      float: left;
+      color: #707070; }
+  /* line 123, ../components/sass/_modules.scss */
+  .features .layout .pos article, .features .layout .reports article, .features .layout .tested article {
+    float: right; }
+  /* line 126, ../components/sass/_modules.scss */
+  .features .layout .pos img, .features .layout .reports img, .features .layout .tested img {
+    float: left; }
+  /* line 129, ../components/sass/_modules.scss */
+  .features .layout .pos p, .features .layout .reports p, .features .layout .tested p {
+    width: 25rem;
+    display: block;
+    float: left; }
+
+/* line 156, ../components/sass/_modules.scss */
+.get-started {
+  width: 60rem;
+  margin: 0 auto;
+  text-align: center; }
+  /* line 161, ../components/sass/_modules.scss */
+  .get-started ul {
+    margin: 0;
+    padding: 0; }
+    /* line 165, ../components/sass/_modules.scss */
+    .get-started ul li {
+      color: #707070; }
+      /* line 167, ../components/sass/_modules.scss */
+      .get-started ul li a {
+        color: #9acf3a;
+        font-family: "Roboto", sans-serif;
+        border-bottom: 2px solid #9acf3a; }
+      /* line 172, ../components/sass/_modules.scss */
+      .get-started ul li span {
+        display: block;
+        width: 1px;
+        height: 7rem;
+        border: 1px solid #9acf3a;
+        margin: 1rem auto 0 auto; }
+      /* line 179, ../components/sass/_modules.scss */
+      .get-started ul li i {
+        -moz-border-radius: 0.4rem;
+        -webkit-border-radius: 0.4rem;
+        border-radius: 0.4rem;
+        border: 0.4rem solid #9acf3a;
+        width: 0.1rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        display: block;
+        margin: 0 auto; }
+
+/* line 192, ../components/sass/_modules.scss */
+.uses {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 195, ../components/sass/_modules.scss */
+  .uses h1 {
+    text-align: center;
+    margin: 0 0 2.5rem 0; }
+  /* line 199, ../components/sass/_modules.scss */
+  .uses ul {
+    width: auto;
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 202, ../components/sass/_modules.scss */
+    .uses ul li {
+      display: inline-block;
+      float: left;
+      width: 33%;
+      min-height: 5rem; }
+      /* line 208, ../components/sass/_modules.scss */
+      .uses ul li:nth-child(1), .uses ul li:nth-child(2), .uses ul li:nth-child(3) {
+        margin: 0 0 2rem 0; }
+      /* line 212, ../components/sass/_modules.scss */
+      .uses ul li picture {
+        float: left;
+        margin: 0 2rem 0 4rem;
+        vertical-align: middle;
+        display: block; }
+      /* line 218, ../components/sass/_modules.scss */
+      .uses ul li p {
+        color: #707070;
+        margin-top: 0.5rem;
+        float: left;
+        width: 57%; }
+
+/* line 229, ../components/sass/_modules.scss */
+ul.bottom-feature-nav {
+  overflow: hidden;
+  *zoom: 1;
+  display: inline-block; }
+  /* line 232, ../components/sass/_modules.scss */
+  ul.bottom-feature-nav h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    color: #ffffff; }
+  /* line 241, ../components/sass/_modules.scss */
+  ul.bottom-feature-nav li {
+    display: block; }
+    /* line 244, ../components/sass/_modules.scss */
+    ul.bottom-feature-nav li a {
+      color: #e6e6e6;
+      margin: 0 0 1rem 0;
+      font-family: "Lato", sans-serif;
+      font-size: 1rem;
+      font-weight: 300;
+      letter-spacing: 0.01em; }
+
+/* line 255, ../components/sass/_modules.scss */
+.email {
+  float: right;
+  color: #e6e6e6;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.01em; }
+
+/* line 263, ../components/sass/_modules.scss */
+.copyright {
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  width: 100%; }
+
+@media (max-width: 79rem) {
+  /* line 2, ../components/sass/_responsive.scss */
+  .wrap {
+    padding: 0 2rem; } }
+@media (max-width: 37.5rem) {
+  /* line 8, ../components/sass/_responsive.scss */
+  .wrap {
+    padding: 0 1.5rem; } }
+/* expanded nav menu */
+@media (min-width: 61rem) {
+  /* line 16, ../components/sass/_responsive.scss */
+  .menu {
+    display: none; }
+
+  /* line 19, ../components/sass/_responsive.scss */
+  .navigation {
+    overflow: hidden;
+    *zoom: 1;
+    float: left;
+    width: 100%; }
+    /* line 24, ../components/sass/_responsive.scss */
+    .navigation .layout {
+      overflow: hidden;
+      *zoom: 1; }
+      /* line 26, ../components/sass/_responsive.scss */
+      .navigation .layout ul.nav {
+        float: left;
+        margin: 3rem 0 0 2rem; }
+        /* line 30, ../components/sass/_responsive.scss */
+        .navigation .layout ul.nav li {
+          display: inline-block;
+          margin: 0 0 0 1rem; }
+          /* line 34, ../components/sass/_responsive.scss */
+          .navigation .layout ul.nav li a {
+            color: #0d3147;
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-size: 1.2rem;
+            padding: 0 0 0 0;
+            display: block;
+            height: 39px; }
+            /* line 42, ../components/sass/_responsive.scss */
+            .navigation .layout ul.nav li a:hover {
+              border-bottom: 3px solid #9acf3a;
+              color: #7eac2a; }
+            /* line 47, ../components/sass/_responsive.scss */
+            .navigation .layout ul.nav li a.active {
+              border-bottom: 3px solid #9acf3a;
+              color: #7eac2a; } }
+/* collapsed nav menu */
+@media (max-width: 64rem) {
+  /* line 60, ../components/sass/_responsive.scss */
+  .menu {
+    display: block;
+    margin: 1.4rem 0 0 0; }
+
+  /* line 64, ../components/sass/_responsive.scss */
+  .nav-wrap {
+    display: none; }
+
+  /* line 67, ../components/sass/_responsive.scss */
+  .nav-wrap.show {
+    display: block;
+    position: absolute;
+    top: 5.8rem;
+    right: 0;
+    width: 50%;
+    min-height: 100rem;
+    height: 100%;
+    background: #ffffff;
+    border-left: 1px solid #e6e6e6; }
+
+  /* line 79, ../components/sass/_responsive.scss */
+  .navigation {
+    overflow: hidden;
+    *zoom: 1;
+    clear: both; }
+    /* line 83, ../components/sass/_responsive.scss */
+    .navigation .layout {
+      overflow: hidden;
+      *zoom: 1; }
+      /* line 85, ../components/sass/_responsive.scss */
+      .navigation .layout ul.nav {
+        float: left;
+        margin: 0;
+        width: 100%; }
+        /* line 90, ../components/sass/_responsive.scss */
+        .navigation .layout ul.nav li {
+          display: block;
+          margin: 0 0 2rem 1rem; }
+          /* line 94, ../components/sass/_responsive.scss */
+          .navigation .layout ul.nav li a {
+            color: #0d3147;
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-size: 1.2rem;
+            padding: 0 0 0 0;
+            display: block;
+            height: 39px;
+            border-bottom: 1px solid #9acf3a; }
+            /* line 103, ../components/sass/_responsive.scss */
+            .navigation .layout ul.nav li a:hover {
+              border-bottom: 3px solid #9acf3a;
+              color: #7eac2a; }
+
+  /* line 114, ../components/sass/_responsive.scss */
+  ul.right-nav {
+    width: 87%;
+    display: block;
+    float: none;
+    margin: 0rem auto 2rem auto; }
+    /* line 120, ../components/sass/_responsive.scss */
+    ul.right-nav li {
+      width: 48%;
+      margin: 0; }
+      /* line 125, ../components/sass/_responsive.scss */
+      ul.right-nav li a.signup, ul.right-nav li a.signin {
+        font-size: 1.3rem; }
+
+  /*.navicon {
+    float: right;
+    font-size: 1.65rem;
+    font-weight: 100;
+    line-height: 2.8125rem;
+    text-align: center;
+    width: 3.4rem;
+    margin: 2.1875rem 2rem 2.1875rem 0;
+    cursor: pointer;
+    
+    &.closed {
+		background-color: $white;
+		color: $mediumgray;
+	} //closed
+    
+    &.open {
+		color: $mediumgray;
+		background-color: $white;
+	} //open
+  } //navicon*/
+  /* line 154, ../components/sass/_responsive.scss */
+  .about-us, .why {
+    width: 56rem; }
+    /* line 157, ../components/sass/_responsive.scss */
+    .about-us .layout h1, .why .layout h1 {
+      width: 25%; }
+
+  /* line 165, ../components/sass/_responsive.scss */
+  .features {
+    width: 56rem; }
+    /* line 170, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop article, .features .layout .pos article, .features .layout .reports article, .features .layout .tested article, .features .layout .backend article, .features .layout .free article {
+      width: 48%; }
+    /* line 173, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop img, .features .layout .pos img, .features .layout .reports img, .features .layout .tested img, .features .layout .backend img, .features .layout .free img {
+      float: right; }
+    /* line 176, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop p, .features .layout .pos p, .features .layout .reports p, .features .layout .tested p, .features .layout .backend p, .features .layout .free p {
+      width: 22rem; }
+    /* line 183, ../components/sass/_responsive.scss */
+    .features .layout .pos article, .features .layout .reports article, .features .layout .tested article {
+      float: right; }
+    /* line 186, ../components/sass/_responsive.scss */
+    .features .layout .pos img, .features .layout .reports img, .features .layout .tested img {
+      float: left; }
+    /* line 189, ../components/sass/_responsive.scss */
+    .features .layout .pos p, .features .layout .reports p, .features .layout .tested p {
+      width: 26rem;
+      display: block;
+      float: left; }
+
+  /* line 200, ../components/sass/_responsive.scss */
+  .get-started {
+    width: 30rem; }
+
+  /* line 207, ../components/sass/_responsive.scss */
+  .uses ul li {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    min-height: 5rem; }
+    /* line 213, ../components/sass/_responsive.scss */
+    .uses ul li:nth-child(1), .uses ul li:nth-child(2), .uses ul li:nth-child(3) {
+      margin: 0;
+      min-height: 14rem; }
+    /* line 218, ../components/sass/_responsive.scss */
+    .uses ul li picture {
+      float: none;
+      margin: 0 auto;
+      vertical-align: middle;
+      display: block;
+      text-align: center; }
+    /* line 226, ../components/sass/_responsive.scss */
+    .uses ul li p {
+      color: #707070;
+      margin: 0.5rem auto;
+      float: none;
+      width: 90%;
+      text-align: center; } }
+@media (max-width: 55rem) {
+  /* line 242, ../components/sass/_responsive.scss */
+  .about-us, .why {
+    margin-top: 5rem;
+    width: auto;
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 246, ../components/sass/_responsive.scss */
+    .about-us .layout, .why .layout {
+      overflow: hidden;
+      *zoom: 1; }
+      /* line 248, ../components/sass/_responsive.scss */
+      .about-us .layout h1, .why .layout h1 {
+        margin: 3rem 0 2rem 0;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 3.3rem;
+        width: auto;
+        float: none;
+        text-align: center; }
+      /* line 258, ../components/sass/_responsive.scss */
+      .about-us .layout p, .why .layout p {
+        float: none;
+        width: auto; }
+
+  /* line 266, ../components/sass/_responsive.scss */
+  .features {
+    width: 40rem; }
+    /* line 269, ../components/sass/_responsive.scss */
+    .features .layout h1 {
+      text-align: center; }
+    /* line 273, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop h2, .features .layout .pos h2, .features .layout .reports h2, .features .layout .tested h2, .features .layout .backend h2, .features .layout .free h2 {
+      text-align: center; }
+    /* line 276, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop article, .features .layout .pos article, .features .layout .reports article, .features .layout .tested article, .features .layout .backend article, .features .layout .free article {
+      width: 60%;
+      margin: 2rem auto 0 auto;
+      float: none; }
+    /* line 281, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop img, .features .layout .pos img, .features .layout .reports img, .features .layout .tested img, .features .layout .backend img, .features .layout .free img {
+      float: none;
+      display: block;
+      margin: 0 auto; }
+    /* line 286, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop p, .features .layout .pos p, .features .layout .reports p, .features .layout .tested p, .features .layout .backend p, .features .layout .free p {
+      width: 24rem; }
+    /* line 292, ../components/sass/_responsive.scss */
+    .features .layout .pos h2, .features .layout .reports h2, .features .layout .tested h2 {
+      text-align: center; }
+    /* line 295, ../components/sass/_responsive.scss */
+    .features .layout .pos article, .features .layout .reports article, .features .layout .tested article {
+      width: 60%;
+      margin: 2rem auto 0 auto;
+      float: none; }
+    /* line 300, ../components/sass/_responsive.scss */
+    .features .layout .pos img, .features .layout .reports img, .features .layout .tested img {
+      float: none;
+      display: block;
+      margin: 0 auto; }
+    /* line 305, ../components/sass/_responsive.scss */
+    .features .layout .pos p, .features .layout .reports p, .features .layout .tested p {
+      width: 22rem;
+      display: block;
+      float: left; } }
+@media (max-width: 48rem) {
+  /* line 319, ../components/sass/_responsive.scss */
+  ul.right-nav {
+    float: none;
+    width: auto; }
+    /* line 323, ../components/sass/_responsive.scss */
+    ul.right-nav li {
+      display: inline-block;
+      width: 49%;
+      margin: 0;
+      padding: 0 0 0 1rem; }
+      /* line 330, ../components/sass/_responsive.scss */
+      ul.right-nav li a.signup, ul.right-nav li a.signin {
+        font-size: 1.5rem;
+        margin: 0 0 0 1rem; }
+      /* line 334, ../components/sass/_responsive.scss */
+      ul.right-nav li a.signin {
+        font-size: 1.5rem; }
+
+  /* line 342, ../components/sass/_responsive.scss */
+  .features {
+    width: auto; }
+    /* line 346, ../components/sass/_responsive.scss */
+    .features .layout h1 {
+      text-align: center; }
+    /* line 350, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop article, .features .layout .pos article, .features .layout .reports article, .features .layout .tested article, .features .layout .backend article, .features .layout .free article {
+      width: auto;
+      margin: 0 auto;
+      display: block;
+      overflow: hidden;
+      padding: 0 0rem; }
+    /* line 357, ../components/sass/_responsive.scss */
+    .features .layout .facebook-shop p, .features .layout .pos p, .features .layout .reports p, .features .layout .tested p, .features .layout .backend p, .features .layout .free p {
+      width: auto;
+      margin: 1.4rem 0 0 0;
+      padding: 0; }
+
+  /* line 370, ../components/sass/_responsive.scss */
+  .uses ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    min-height: 14rem; }
+
+  /* line 378, ../components/sass/_responsive.scss */
+  .email {
+    float: none;
+    margin: 2rem 0 0 0; } }
+@media (max-width: 30rem) {
+  /* line 386, ../components/sass/_responsive.scss */
+  ul.right-nav {
+    float: none;
+    width: auto; }
+    /* line 390, ../components/sass/_responsive.scss */
+    ul.right-nav li {
+      display: inline-block;
+      width: 90%;
+      margin: 0;
+      padding: 0 0 0 1rem; }
+      /* line 397, ../components/sass/_responsive.scss */
+      ul.right-nav li a.signup, ul.right-nav li a.signin {
+        font-size: 1rem;
+        margin: 0 0 0 1rem; }
+      /* line 401, ../components/sass/_responsive.scss */
+      ul.right-nav li a.signin {
+        font-size: 1rem; }
+
+  /* line 409, ../components/sass/_responsive.scss */
+  .hero {
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 413, ../components/sass/_responsive.scss */
+    .hero .banner h1 {
+      margin: 0 0 2rem 0;
+      padding: 0; }
+
+  /* line 424, ../components/sass/_responsive.scss */
+  .uses ul li {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    min-height: 6rem; }
+    /* line 430, ../components/sass/_responsive.scss */
+    .uses ul li:nth-child(1), .uses ul li:nth-child(2), .uses ul li:nth-child(3) {
+      margin: 0;
+      min-height: 6rem; }
+    /* line 435, ../components/sass/_responsive.scss */
+    .uses ul li picture {
+      float: left; }
+    /* line 439, ../components/sass/_responsive.scss */
+    .uses ul li p {
+      text-align: left;
+      margin: 0 0 0 5rem;
+      width: 80%; }
+
+  /* line 450, ../components/sass/_responsive.scss */
+  .get-started {
+    width: auto; }
+
+  /* line 454, ../components/sass/_responsive.scss */
+  .email {
+    float: none; } }
+@media (max-width: 25rem) {
+  /* line 461, ../components/sass/_responsive.scss */
+  body {
+    background: #fff; } }

@@ -1,0 +1,289 @@
+// Header --------------
+header {
+ @include clearfix;
+ padding: 0;
+} //header
+
+// Lukaduka Logo --------------------
+.logo {
+ display: inline-block;
+ float: left;
+ margin: 1.3rem 0 0 0;
+} // logo
+
+// Hero -------------------------
+.hero {
+ @include clearfix;
+ 
+ .banner {
+    padding: 5% 0;
+	border: {
+      top    : none; // stroke 
+      bottom : 1px solid $lightergray; // stroke
+    }
+	background-color: $white; // layer fill content
+	@include box-shadow(inset 0 -3px 3px rgba(214,214,214,.16)); // inner shadow
+    text-align: center;
+  
+    h1 {
+     font-family: $font-secondary;
+     color: $orange;
+     font-weight: 300;
+     font-size: 2.5rem;
+     margin: 0;
+     padding: 0;
+    } //banner h1
+    h2 {
+     font-family: $font-secondary;
+     color: $orange;
+     font-weight: 300;
+     font-size: 2.5rem;
+     margin: 0;
+     padding: 0;
+    } //banner h2
+    .banner-signup {
+     @include border-radius; // border radius
+     @include background-clip(padding-box); // prevents bg color from leaking outside the border
+     background-color: $green; // layer fill content
+     font-family: $font-secondary;
+     font-weight: 300;
+     color: $white;
+     font-size: 1.8rem;
+     padding: 1.2% 9%;
+     margin: 5% auto 0 auto;
+     display: inline-block;
+    }
+
+ } //banner
+} //hero
+
+// About Us ----------------------
+.about-us {
+ margin: 130px auto 5rem auto;
+ width: 60rem;
+ @include clearfix;
+ .layout {
+  @include clearfix;
+  h1 {
+   margin: 8rem 0;
+   font-family: $font-secondary;
+   font-weight: 500;
+   font-size: 3.3rem;
+   width: 20%;
+   float: left;
+  } //h1
+  
+  p {
+   display: block;
+   float: right;
+   width: 58%;
+  } //paragraph
+ } //layout
+} //About Us
+
+.why {
+ @extend .about-us;
+ margin: {
+   top: 0;
+   bottom: 0;
+ }
+ .layout {
+  h1 {
+   margin: 0;
+  } //h1
+ } //layout
+} //why section
+
+// Features ----------------------------
+// Facebook shop -----------------------
+.features {
+ width: 60rem;
+ margin: 0 auto;
+ .layout {
+  .facebook-shop {
+   @include clearfix;
+   margin: 0 0 4rem 0;
+   article {
+    float: left;
+    width: 48%;
+   }
+   img {
+    float: right;
+   } //Img
+   p {
+    width: 25rem;
+    display: block;
+    float: left;
+    color: lighten($mediumgray, 12);
+   } //paragraph
+  } //facebook shop
+  
+  .pos {
+   @extend .facebook-shop;
+   article {
+    float: right;
+   }
+   img {
+    float: left;
+   } //Img
+   p {
+    width: 25rem;
+    display: block;
+    float: left;
+   } //paragraph
+  } //POS
+  
+  .backend {
+   @extend .facebook-shop;
+  } //Dashboard
+  
+  .reports {
+   @extend .pos;
+  } //Reports
+  
+  .free {
+   @extend .facebook-shop;
+  } //Free shop set up
+  
+  .tested {
+   @extend .pos;
+  } //Tested server side code
+  
+ } //layout
+} //Features
+
+// Get Started ---------------------------
+.get-started {
+ width: 60rem;
+ margin: 0 auto;
+ text-align: center;
+ 
+ ul {
+  margin: 0;
+  padding: 0;
+  
+   li {
+    color: lighten($mediumgray, 12);
+   a {
+    color: $green;
+    font-family: $font-primary;
+    border-bottom: 2px solid $green;
+   } //link
+   span {
+    display: block;
+    width: 1px;
+    height: 7rem;
+    border: 1px solid $green;
+    margin: 1rem auto 0 auto;
+   } //span
+    i {
+     @include border-radius(0.4rem);
+     border: 0.4rem solid $green;
+     width: 0.1rem;
+     height: 0.4rem;
+     line-height: 0.4rem;
+     display: block;
+     margin: 0 auto;
+    } //circle
+  } //list
+ } //ul
+} //Get started
+
+.uses {
+ @include clearfix;
+ 
+ h1 {
+  text-align: center;
+  margin: 0 0 2.5rem 0;
+ }
+ ul {
+  width: auto;
+  @include clearfix;
+  li {
+   display: inline-block;
+   float: left;
+   width: 33%;
+   min-height: 5rem;
+   
+   &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+    margin: 0 0 2rem 0;
+   }
+   
+   picture {
+    float: left;
+    margin: 0 2rem 0 4rem;
+    vertical-align: middle;
+    display: block;
+   } //picture element
+   p {
+    color: lighten($mediumgray, 12);
+    margin-top: 0.5rem;
+    float: left;
+    width: 57%;
+   } //paragraph
+  } //li
+ } //ul
+} //Use case
+
+//Footer --------------------------
+ul.bottom-feature-nav {
+ @include clearfix;
+ display: inline-block;
+ h1 {
+  font-family: $font-secondary;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  color: $white;
+ } //h1 heading
+ 
+ li {
+  display: block;
+  
+  a {
+   color: $lightgray;
+   margin: 0 0 1rem 0;
+   font-family: $font-secondary;
+   font-size: 1rem;
+   font-weight: 300;
+   letter-spacing: 0.01em;
+  } //links
+ } //list
+} //Bottom navigation
+
+.email {
+ float: right;
+ color: $lightgray;
+ font-family: $font-secondary;
+ font-size: 1rem;
+ letter-spacing: 0.01em;
+}
+
+.copyright {
+ position: absolute;
+ bottom: 1rem;
+ text-align: center;
+ font-family: $font-secondary;
+ font-size: 1rem;
+ color: $white;
+ width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
