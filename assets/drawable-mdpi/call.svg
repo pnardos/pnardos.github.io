@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>call</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Account-locked-Screen" transform="translate(-168.000000, -357.000000)" fill="#FFFFFF">
-            <g id="Overlay">
-                <g id="Group-2" transform="translate(150.000000, 342.000000)">
-                    <g id="call" transform="translate(18.000000, 15.000000)">
-                        <path d="M4.85,10.8085714 C6.73611111,14.6885714 9.96944444,17.8757143 13.7416667,19.9542857 L16.7055556,16.9057143 C17.1097222,16.49 17.6486111,16.3514286 18.0527778,16.6285714 C19.5347222,17.1828571 21.1513889,17.46 22.9027778,17.46 C23.7111111,17.46 24.25,18.0142857 24.25,18.8457143 L24.25,23.5571429 C24.25,24.3885714 23.7111111,24.9428571 22.9027778,24.9428571 C10.2388889,24.9428571 0,14.4114286 0,1.38571429 C0,0.554285714 0.538888889,0 1.34722222,0 L6.0625,0 C6.87083333,0 7.40972222,0.554285714 7.40972222,1.38571429 C7.40972222,3.04857143 7.67916667,4.71142857 8.21805556,6.37428571 C8.35277778,6.79 8.21805556,7.34428571 7.94861111,7.76 L4.85,10.8085714 L4.85,10.8085714 Z" id="Shape"></path>
+    <defs>
+        <path d="M3.2,6.93333333 C4.44444444,9.42222222 6.57777778,11.4666667 9.06666667,12.8 L11.0222222,10.8444444 C11.2888889,10.5777778 11.6444444,10.4888889 11.9111111,10.6666667 C12.8888889,11.0222222 13.9555556,11.2 15.1111111,11.2 C15.6444444,11.2 16,11.5555556 16,12.0888889 L16,15.1111111 C16,15.6444444 15.6444444,16 15.1111111,16 C6.75555556,16 0,9.24444444 0,0.888888889 C0,0.355555556 0.355555556,0 0.888888889,0 L4,0 C4.53333333,0 4.88888889,0.355555556 4.88888889,0.888888889 C4.88888889,1.95555556 5.06666667,3.02222222 5.42222222,4.08888889 C5.51111111,4.35555556 5.42222222,4.71111111 5.24444444,4.97777778 L3.2,6.93333333 L3.2,6.93333333 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1.5" y="-1.5" width="19" height="19">
+            <rect x="-1.5" y="-1.5" width="19" height="19" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.6">
+        <g id="Account-locked-Screen" transform="translate(-49.000000, -241.000000)" stroke="#0B0A3E" stroke-width="3">
+            <g id="Group-3" transform="translate(20.000000, 102.000000)">
+                <g id="Phone-Number" transform="translate(31.000000, 139.000000)">
+                    <g id="call" transform="translate(0.000000, 2.000000)">
+                        <use id="Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
                     </g>
                 </g>
             </g>
