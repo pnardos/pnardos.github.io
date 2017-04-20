@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>call</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.2,6.93333333 C4.44444444,9.42222222 6.57777778,11.4666667 9.06666667,12.8 L11.0222222,10.8444444 C11.2888889,10.5777778 11.6444444,10.4888889 11.9111111,10.6666667 C12.8888889,11.0222222 13.9555556,11.2 15.1111111,11.2 C15.6444444,11.2 16,11.5555556 16,12.0888889 L16,15.1111111 C16,15.6444444 15.6444444,16 15.1111111,16 C6.75555556,16 0,9.24444444 0,0.888888889 C0,0.355555556 0.355555556,0 0.888888889,0 L4,0 C4.53333333,0 4.88888889,0.355555556 4.88888889,0.888888889 C4.88888889,1.95555556 5.06666667,3.02222222 5.42222222,4.08888889 C5.51111111,4.35555556 5.42222222,4.71111111 5.24444444,4.97777778 L3.2,6.93333333 L3.2,6.93333333 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1.5" y="-1.5" width="19" height="19">
+            <rect x="-1.5" y="-1.5" width="19" height="19" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.6">
+        <g id="Account-locked-Screen" transform="translate(-49.000000, -241.000000)" stroke="#0B0A3E" stroke-width="3">
+            <g id="Group-3" transform="translate(20.000000, 102.000000)">
+                <g id="Phone-Number" transform="translate(31.000000, 139.000000)">
+                    <g id="call" transform="translate(0.000000, 2.000000)">
+                        <use id="Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
