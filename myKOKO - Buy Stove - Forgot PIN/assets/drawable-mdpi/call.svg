@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>call</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.1751938,6.93333333 C4.40999139,9.42222222 6.52678725,11.4666667 8.99638243,12.8 L10.9367786,10.8444444 C11.2013781,10.5777778 11.5541774,10.4888889 11.8187769,10.6666667 C12.788975,11.0222222 13.847373,11.2 14.9939707,11.2 C15.5231697,11.2 15.875969,11.5555556 15.875969,12.0888889 L15.875969,15.1111111 C15.875969,15.6444444 15.5231697,16 14.9939707,16 C6.70318691,16 0,9.24444444 0,0.888888889 C0,0.355555556 0.352799311,0 0.881998277,0 L3.96899225,0 C4.49819121,0 4.85099053,0.355555556 4.85099053,0.888888889 C4.85099053,1.95555556 5.02739018,3.02222222 5.38018949,4.08888889 C5.46838932,4.35555556 5.38018949,4.71111111 5.20378984,4.97777778 L3.1751938,6.93333333 L3.1751938,6.93333333 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1.5" y="-1.5" width="18.875969" height="19">
+            <rect x="-1.5" y="-1.5" width="18.875969" height="19" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.6">
+        <g id="myKOKO-Pre-order-Payment-Plan---Forgot-PIN-Error-Phone-number-with-no-zero" transform="translate(-50.000000, -273.000000)" stroke="#0B0A3E" stroke-width="3">
+            <g id="Phone-Number" transform="translate(52.000000, 249.000000)">
+                <g id="call" transform="translate(0.000000, 26.000000)">
+                    <use id="Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
